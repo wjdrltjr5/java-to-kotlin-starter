@@ -38,7 +38,7 @@ class Person2(val name: String, var age: Int){
         return this.age >= 20;
     }
     // 방벙2 프로퍼티처럼
-    val isAdult: Boolean
+    val isAdult0: Boolean
         get() = this.age >= 20
     // 방법3
     val isAdult1: Boolean
@@ -66,7 +66,7 @@ class Person3(name: String = "디폴트", var age: Int = 1){
     
     //아래 두함수는 기본 getter가 있어야함 보통은 이런방식으로 많이 사용
     // 즉 생성자에 val name: String으로 선언해야.
-    fun getUppercaseName(): String{
+    fun getUppercaseName123123(): String{
         return this.name.uppercase();
     }
     
